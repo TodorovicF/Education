@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/playLayout"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/missed" >
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/onScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/caught"
+        android:layout_alignBottom="@+id/caught"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="32dp"
+        android:text="@string/on_screen" />
+
+    <TextView
+        android:id="@+id/missed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/missed" />
+
+    <TextView
+        android:id="@+id/caught"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/missed"
+        android:layout_alignBottom="@+id/missed"
+        android:layout_marginLeft="120dp"
+        android:text="@string/caught" />
+
+</RelativeLayout>

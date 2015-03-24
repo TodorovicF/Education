@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FilipTodorovicEX5</string>
+    <string name="missed">Missed: </string>
+    <string name="caught">Caught: </string>
+    <string name="on_screen">On Screen: </string>
+
+</resources>
