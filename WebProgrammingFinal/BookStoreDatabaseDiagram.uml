@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>c1d2c40e-9e37-436a-90c3-7caacaee9cee</OriginalElement>
+  <nodes>
+    <node x="223.99999999999997" y="410.0">c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.purchase</node>
+    <node x="237.0" y="807.0">c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.userrole</node>
+    <node x="641.125" y="622.0">c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.ratings</node>
+    <node x="0.0" y="399.0">c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.invoice</node>
+    <node x="146.0" y="0.0">c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.user</node>
+    <node x="437.0" y="366.0">c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.product</node>
+    <node x="197.80357142857133" y="633.0">c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.lineitem</node>
+    <node x="0.0" y="807.0">c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.userpass</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.invoice" target="c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.user">
+      <point x="0.0" y="-70.0" />
+      <point x="102.0" y="341.0" />
+      <point x="204.16666666666669" y="341.0" />
+      <point x="-116.33333333333331" y="158.0" />
+    </edge>
+    <edge source="c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.lineitem" target="c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.invoice">
+      <point x="-48.25" y="-59.0" />
+      <point x="246.05357142857133" y="597.0" />
+      <point x="102.0" y="597.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.ratings" target="c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.user">
+      <point x="49.75" y="-70.0" />
+      <point x="790.375" y="597.0" />
+      <point x="788.5" y="597.0" />
+      <point x="788.5" y="341.0" />
+      <point x="436.8333333333333" y="341.0" />
+      <point x="116.33333333333331" y="158.0" />
+    </edge>
+    <edge source="c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.purchase" target="c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.user">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="158.0" />
+    </edge>
+    <edge source="c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.ratings" target="c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.product">
+      <point x="-49.75" y="-70.0" />
+      <point x="690.875" y="597.0" />
+      <point x="692.75" y="597.0" />
+      <point x="85.25" y="103.0" />
+    </edge>
+    <edge source="c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.lineitem" target="c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.product">
+      <point x="48.25" y="-59.0" />
+      <point x="342.55357142857133" y="597.0" />
+      <point x="522.25" y="597.0" />
+      <point x="-85.25" y="103.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6215316315205327" x="421.2071428571429" y="440.50000000000006" />
+  <SelectedNodes>
+    <node>c1d2c40e-9e37-436a-90c3-7caacaee9cee.table:bookstore.lineitem</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+

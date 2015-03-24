@@ -1,0 +1,63 @@
+Index: web/WEB-INF/web.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- web/WEB-INF/web.xml	(date 1425844635000)
++++ web/WEB-INF/web.xml	(revision )
+@@ -23,26 +23,26 @@
+         <role-name>programmer</role-name>
+     </security-role>
+ 
+-    <security-constraint>
+-        <!-- Restrict access to the URLs in the admin directory -->
++<!--    <security-constraint>
++        &lt;!&ndash; Restrict access to the URLs in the admin directory &ndash;&gt;
+         <web-resource-collection>
+             <web-resource-name>Admin</web-resource-name>
+             <url-pattern>/admin/*</url-pattern>
+         </web-resource-collection>
+ 
+-        <!-- Authorize the service and programmer roles -->
++        &lt;!&ndash; Authorize the service and programmer roles &ndash;&gt;
+         <auth-constraint>
+             <role-name>service</role-name>
+             <role-name>programmer</role-name>
+         </auth-constraint>
+ 
+-        <!-- Forces a secure connection - remove comments to enable -->
+-        <!--
++        &lt;!&ndash; Forces a secure connection - remove comments to enable &ndash;&gt;
++        &lt;!&ndash;
+         <user-data-constraint>
+             <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+         </user-data-constraint>
+-        -->
+-    </security-constraint>
++        &ndash;&gt;
++    </security-constraint>-->
+ 
+     <!-- Use form-based authentication to provide access -->
+     <login-config>
+Index: web/admin/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- web/admin/index.jsp	(date 1425844635000)
++++ web/admin/index.jsp	(revision )
+@@ -3,12 +3,12 @@
+ 
+ <!-- begin middle column -->
+ 
+-<section id="admin">
++<section>
+ 
+ <h1>Admin Menu</h1>
+ 
+ <!-- these Form tags don't force a secure connection -->
+-<form action="<c:url value='/adminController/displayInvoices'/>" method="post">
++<form action="/adminController/displayInvoices" method="post">
+    <input type="submit" value="Process Invoices" class="left_margin">
+ </form>
+ <form action="reports.jsp" method="post">

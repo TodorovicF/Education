@@ -1,0 +1,307 @@
+/* type selectors */
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+html {
+    background-image: -moz-linear-gradient(top, white 0%, #facd8a 100%);
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 964px;
+    min-height: 600px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 25px;
+}
+section, aside, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+section, aside {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+h1 { font-size: 175%; }
+h2 { font-size: 125%; }
+
+a { font-weight: bold; }
+a:link { color: darkblue; }
+a:visited { color: #ef9c00; }
+a.current { color: darkgreen; }
+a:hover, a:focus { color: royalblue; }
+
+ul {
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+li { padding-bottom: 0.25em; }
+
+p { padding-bottom: 0.5em; }
+
+em { font-weight: bold; }
+
+/* the styles for the header */
+header {
+    padding-bottom: 2em;
+}
+header h1 {
+    color: darkred;
+    align-content: center;
+}
+header h2 {
+    color: green;
+    font-style: italic;
+    margin-left: 120px;
+}
+header img {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+/* the styles for the top navigation bar */
+#nav_bar {
+    clear: left;
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid #ef9c00;
+    text-align: right;
+}
+#nav_bar ul {
+    margin-bottom: .5em;
+    list-style: none;
+    padding-top: .5em;
+}
+#nav_bar li {
+    display: inline;
+    padding: 0 1.5em;
+    border-left: 2px solid black;
+}
+
+/* the styles for the side navigation bar */
+#homeLeftCol ul {
+    margin-left: 0;
+    list-style: none;
+}
+#homeLeftCol li {
+    margin-bottom: .5em;
+}
+
+/* the styles for the section */
+section {
+    width: 520px;
+    padding-right: 20px;
+    padding-left: 20px;
+    float: left;
+}
+section h1 {
+    margin-bottom: 0.35em;
+}
+section h2 {
+    margin-bottom: 0.35em;
+}
+.top_margin {
+    margin-top: 1em;
+}
+
+/* product */
+section img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.clear_both {
+    clear: both;
+}
+
+/* email list */
+section label {
+    float: left;
+    width: 8em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    padding-top: 0.25em;
+}
+/*section input[type="text"], input[type="email"], input[type="password"] {
+    width: 12em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}*/
+section input[type="submit"] {
+    margin-left: 0.5em;
+}
+br {
+    clear: both;
+}
+#submit {
+    margin-left: 0.5em;
+}
+
+
+table {
+    border: none;
+}
+th {
+    vertical-align: bottom;
+    text-align: left;
+}
+td {
+    vertical-align: top;
+}
+
+.top {
+    vertical-align: top;
+}
+
+/* the style for the cart pages */
+.cart {
+    width: 540px;
+}
+.cart label {
+    float: left;
+    width: 10em;
+    font-weight: bold;
+    padding-top: 0.25em;
+}
+/*.cart input[type="text"], input[type="email"], input[type="password"] {
+    float: left;
+    width: 12em;
+    margin-left: 0.5em;
+    margin-right: 0.2em;
+}*/
+
+.cart select {
+    margin-left: 0.5em;
+    margin-right: 0.2em;
+}
+.cart_row input[type="text"] {
+    width: 2em;
+    margin-left: 0em;
+}
+
+.cart table{
+    font-size: small;
+}
+
+#required {
+    margin-left: 8.5em;
+    margin-bottom: .5em;
+}
+.required {
+    color: red;
+    margin-bottom: 0;
+}
+#quantity_text {
+    width: 2em;
+}
+#float_left {
+    float: left;
+    margin-right: 1em;
+}
+
+/* the style for the admin pages */
+#admin {
+    width: 700px;
+}
+#admin form {
+    margin-top: .5em;
+}
+#admin label {
+    width: 14em;
+    margin-left: .5em;
+    padding-top: 0.25em;
+}
+#admin .left_margin {
+    margin-left: 0em;
+}
+
+
+/* the styles for the sidebars */
+aside h1 {
+    font-size: 125%;
+    padding-bottom: .5em;
+}
+aside h2 {
+    font-size: 100%;
+    color: green;
+    padding-bottom: .5em;
+}
+aside p {
+    margin-bottom: .5em;
+}
+aside img {
+    margin-bottom: 1em;
+}
+#homeLeftCol {
+    width: 180px;
+    float: left;
+    min-height: 400px;
+}
+#homeRightCol {
+    width: 180px;
+    float: right;
+    min-height: 400px;
+    padding-left: 20px;
+}
+
+
+/* the styles for the footer */
+footer {
+    clear: both;
+    margin-top: 1em;
+    padding-top: 0.7em;
+}
+footer p {
+    font-size: 80%;
+    text-align: right;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.no_pad_top {
+    padding-top: 0;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+.no_underline {
+    text-decoration:none;
+}
+
+.horizontal_login {
+    display: inline-block;
+}
+
+.nav_horizontal {
+    display: inline-block;
+}
+
+.legend_text {
+    display: inline-block;
+    padding: 0.35em 0.75em 0.625em;
+    border: 20px;
+}
+
+fieldset div {
+    overflow:hidden; /* Contain the floating elements */
+    display:inline-block; /* Give layout in ie to contain float */
+}
+
+.book-img {
+    width: 250px;
+}
+
+.user {
+}
+
+.inventory td{
+    font-size: small;
+}
+
+.inventory input[type="text"]{
+    width: 2em;
+}
