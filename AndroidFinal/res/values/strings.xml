@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jump Coin</string>
+    <string name="miss">Miss: </string>
+    <string name="hit">Hit: </string>
+    
+    <string name="jumpDesc">onClick causes Hero to jump</string>
+    <string name="leftDesc">onTouch and ACTION_DOWN cause hero to run left</string>
+    <string name="rightDesc">onTouch and ACTION_DOWN cause hero to run right</string>
+    <string name="createDesc">onClick creates a coin at a random location</string>
+    <string name="cameraDesc">onClick pulls up the camera to take a picture and replace the coin</string>
+    <string name="timeDesc">Image for timer when "Create" is clicked</string>
+
+</resources>
