@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <Button
+        android:id="@+id/playButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/crocButton"
+        android:text="@string/play" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/delete" />
+
+    <Button
+        android:id="@+id/createButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mode"
+        android:layout_alignParentLeft="true"
+        android:text="@string/create" />
+
+    <ImageButton
+        android:id="@+id/duckButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/createButton"
+        android:src="@drawable/duck" />
+
+    <ImageButton
+        android:id="@+id/crocButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/duckButton"
+        android:src="@drawable/crocodile" />
+
+    <TextView
+        android:id="@+id/mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/crocButton"
+        android:layout_below="@+id/crocButton"
+        android:text="@string/mode"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mode"
+        android:layout_alignBottom="@+id/mode"
+        android:layout_alignParentLeft="true"
+        android:text="@string/count"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <RelativeLayout
+        android:id="@+id/playLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/count" >
+
+    </RelativeLayout>
+
+</RelativeLayout>
